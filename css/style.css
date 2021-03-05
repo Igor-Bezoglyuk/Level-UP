@@ -1,1 +1,1040 @@
+body{
+	margin: 0px;
+	font-family: roboto,arial;
+}
+header{
+	position: absolute;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height:80px;
+	z-index: 999;
+}
+.navbar{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 90%;
+	height: 100%;
+	margin:0 auto;
+}
+#Logo{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 30%;
+	height: 100%;
+	background: ;
+}
+.navbar-brand{
+	position: relative
+	top:0;
+	right: 0%;
+	width: 100%;
+	text-align: left;
+	font-family: roboto;
+	font-size: 40px;
+	font-weight: 600;
+	color: white;
+}
+.navbar-brand::before{
+	content: "UP!";
+	position: absolute;
+    top: 6px;
+    left: 187px;
+    width: 4%;
+    text-align: left;
+    font-family: roboto;
+    font-size: 40px;
+    font-weight: 600;
+    color: #c435fe;
+}
+/*______________________________________________________________________________________________________*/
+article{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: 100%;
+}
+/*______________________________________________________________________________________________________*/
+#Kontent{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: 900px;
+    max-height: 900vh;
+    overflow: hidden;	
+}
+#Kontent::before{
+	content:"";
+	position: absolute;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(0deg, #16013a, transparent);	
+	z-index: 1;
+}
+.KontentVideoMedia{
+	position:absolute;
+	top: 0;
+	right: 0%;
+	height: auto;
+}
+#KontentBlock{
+	position:absolute;
+	top: 0;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+.Kontent-Blocks{
+	position: relative;
+	top: 190px;
+    right: -1%;
+    width: 460px;
+    height: 500px;
+    display: inline-block;
+    margin-right: 25px;
+    z-index: 2;
+}
+.Kontent-Blocks-text{
+	position: absolute;
+	top: 50px;
+    right: 31%;
+    width: 76%;
+    text-align: left;
+    font-family: roboto;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+.Kontent-Blocks-text::before{
+	content:"UP";
+	position: relative;
+    top: 0;
+    right: -220px;
+    width: 20%;
+    text-align: left;
+    font-family: roboto;
+    font-size: 70px;
+    font-weight: 900;
+	color: purple;
+}
+.Kontent-Block-Spisok{
+	position: absolute;
+	top: 152px;
+    right: 5%;
+    width: 82%;
+    height: 400px;
+    list-style: none;
+    padding: 0px;
+}
+.Spisik-li{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	text-align: left;
+	font-family: roboto;
+	font-size: 20px;
+	font-weight: 300;
+	color: white;
+	display: block;
+	margin-bottom: 25px;
+	cursor: pointer;
+}
+.Spisik-li::before{
+	content:"";
+	position: absolute;
+	top: 0px;
+    left: -45px;
+    width: 30px;
+    height: 30px;
+    background: url(../img/CheckMark.png)no-repeat 50% 50%/100%;
+    transition: 0.4s;
+}
+.Spisik-li:hover::before{
+	left: -35px;
+}
+.Kontent-Blocks-Img{
+	position: relative;
+    top: 0;
+    right: -11%;
+    width: 335px;
+    height: 500px;
+}
 
+.Kontent-Silka{
+	position: absolute;
+    top: 411px;
+    right: 37%;
+    width: 50%;
+    height: 50px;
+}
+.Kontent-Knopka{
+	position: absolute;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-family: roboto;
+	font-size: 20px;
+	font-weight: 300;
+	color: white;
+	border:solid 2px purple;
+	background: #b032ff7d;
+	border-radius: 20px;
+	cursor: pointer;
+	outline: none;
+	transition: 0.3s;
+}
+.Kontent-Knopka:hover{
+	background: linear-gradient(0deg, #16013a, purple);	
+	border:none;
+}
+/*______________________________________________________________________________________________________*/
+#Kontent2{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: 790px;
+	background: url(../img/istockcasal-cama-sexo.jpg)no-repeat 50% 50%/1900px;
+}
+#Kontent2::before{
+	content:"";
+	position: absolute;
+	top: 0;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background: #efefefe8;
+    backdrop-filter: blur(5px);
+}
+#Kontent2Block{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 981px;
+	height: 100%;
+	margin:0 auto;
+}
+#Kontent2BlockTitle{
+	position: absolute;
+	top: 60px;
+	right: 0%;
+	width: 100%;
+	text-align: center;
+	font-family: roboto;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.Kontent2Blocks{
+	position: relative;
+	top: 130px;
+    right: -4%;
+    width: 21%;
+    height: 200px;
+    display:block;
+    margin-bottom: 25px;
+}
+.Kontent2Blocks::before{
+	content:"";
+	position: absolute;
+	top: 0px;
+    right: 18%;
+    width: 61%;
+    height: 60%;
+	border:solid 2px purple;
+	border-radius: 100%;
+}
+#Kontent2Img{
+	position: absolute;
+	top: 185px;
+    right: 30%;
+    width: 40%;
+    height: 400px;
+	background: url(../img/prod.png) no-repeat 50% 50%/215px;
+}
+.Kontent2Blocks2{
+	position: relative;
+	top: -547px;
+    right: -75%;
+    width: 21%;
+    height: 200px;
+	display:block;
+	margin-bottom:25px;
+}
+.Kontent2Blocks2::before{
+	content:"";
+	position: absolute;
+	top: 0px;
+    right: 18%;
+    width: 61%;
+    height: 60%;
+	border:solid 2px purple;
+	border-radius: 100%;
+}
+.Kontent2BlocksImg{
+	position: absolute;
+	top: 9px;
+    right: 25%;
+    width: 45%;
+    height: 99px;
+}
+.Block-img{
+	background: url(../img/Carrot.png)no-repeat 50% 50%/75px;
+}
+.Block-img2{
+	background: url(../img/Granat.png)no-repeat 50% 50%/75px;
+}
+.Block-img3{
+	background: url(../img/Pomidor.png)no-repeat 50% 50%/75px;
+}
+.Block-img4{
+	background: url(../img/Himya.png)no-repeat 50% 50%/75px;
+}
+.Block-img5{
+	background: url(../img/Aggs.png)no-repeat 50% 50%/75px;
+}
+.Block-img6{
+	background: url(../img/Banano.png)no-repeat 50% 50%/75px;
+}
+.Kontent2BlocksStroka{
+	position: absolute;
+	top: 130px;
+	right: 0%;
+	width: 100%;
+	text-align: center;
+	font-family: roboto;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.Kontent2BlocksSilka{
+	position: absolute;
+	top: 411px;
+    right: 30%;
+    width: 40%;
+    height: 50px;
+}
+.Kontent2BlocksKnopka{
+	position: absolute;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-family: roboto;
+	font-size: 20px;
+	font-weight: 300;
+	color: white;
+	border:none;
+	background: linear-gradient(359deg, #801880, #9902fd);
+	border-radius:5px;
+	cursor: pointer;
+	outline: none;
+	transition: 0.3s;
+}
+.Kontent2BlocksKnopka:hover{
+	background: linear-gradient(2deg, #611159, #7a30f8);
+}
+/*______________________________________________________________________________________________________*/
+#Kontent3{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: 600px;
+}
+#Kontent3Block{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 981px;
+	height: 100%;
+	margin:0 auto;
+}
+#Kontent3BlockTitle{
+	position: absolute;
+	top: 50px;
+	right: 0%;
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+
+
+.carousel {
+    position: relative;
+    top: 175px;
+    right: 0%;
+    width: 810px;
+    height: 475px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-open:checked + .carousel-item {
+    position: relative;
+    display: contents;
+    top: 0;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+
+.carousel-item img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.carousel-control {
+    background: rgb(128 24 128);
+    border-radius: 50%;
+    cursor: pointer;
+    #display: none;
+    font-size: 40px;
+    height: 50px;
+    line-height: 35px;
+    position: absolute;
+    top: 45%;
+    cursor: pointer;
+    text-align: center;
+    width: 50px;
+    z-index: 10;
+}
+.carousel-control:hover{
+	background: none;
+}
+.carousel-control.prev::before{
+	position: absolute;
+	content: "\276E";
+	top: 8px;
+    right: 4%;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+	font-weight: 300;
+	color:white;
+	transition-duration: 0.4s;
+}
+.carousel-control.next::before{
+	position: absolute;
+	content: "\276F";
+	top: 8px;
+	right: -4%;
+	width: 100%;
+	text-align: center;
+	font-size: 35px;
+	font-weight: 300;
+	color:white;
+	transition-duration: 0.4s;
+}
+.carousel-control.prev:hover::before{
+	color:#7e32ff;
+}
+.carousel-control.next:hover::before{
+	color:#7e32ff;
+}
+.carousel-control.prev {
+    left: 1%;
+}
+
+.carousel-control.next {
+    right: 1%;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+    display: block;
+}
+
+.carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.carousel-bullet {
+    color: #bbb;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+}
+
+.carousel-bullet:hover {
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+    color: #05bca9;
+}
+
+
+.sladeimg{
+	position: absolute;
+	top: 50px;
+    right: 42%;
+    width: 16%;
+    height: 148px;
+    border-radius: 100%;
+    background: url(../img/8b000ae0b745c6d4cb0a84e2b2de6567.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 103%;
+}
+.sladeimg2{
+	position: absolute;
+	top: 50px;
+    right: 42%;
+    width: 16%;
+    height: 148px;
+    border-radius: 100%;
+    background: url(../img/1371643083_40095600.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 103%;
+}
+.sladeimg3{
+	position: absolute;
+	top: 50px;
+    right: 42%;
+    width: 16%;
+    height: 148px;
+    border-radius: 100%;
+    background: url(../img/unnamed.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 103%;
+}
+.sladetext{
+	position: absolute;
+	top: 215px;
+	right: 0%;
+	width: 100%;
+	text-align: center;
+	font-family: roboto,sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+	color: grey;
+}
+.sladestroka{
+	position: absolute;
+	top: 270px;
+    right: 5%;
+    width: 90%;
+	text-align: center;
+	font-family: roboto,monospace;
+	font-size: 24px;
+	font-weight: 300;
+	color: grey;
+}
+
+.slider{
+   position: relative;
+    top: 80px;
+    right: 0%;
+    width: 925px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.sliders{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 400%;
+	height: 100%;
+	display: flex;
+}
+.slide{
+	position: relative;
+	top: 0;
+    right: 0%;
+    width: 25%;
+	height: 100%;
+	transition-duration: 0.4s;
+}
+#sladeimg{
+	position: absolute;
+	top: 5px;
+    right: 41%;
+    width: 18%;
+    height: 170px;
+    border-radius: 100%;
+    background: url(../img/avatar-1.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 103%;
+}
+#sladeimg2{
+	position: absolute;
+	top: 5px;
+    right: 41%;
+    width: 18%;
+    height: 170px;
+    border-radius: 100%;
+    background: url(../img/avatar-3.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 103%;
+}
+#sladeimg3{
+	position: absolute;
+	top: 5px;
+    right: 41%;
+    width: 18%;
+    height: 170px;
+    border-radius: 100%;
+    background: url(../img/avatar-2.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 103%;
+}
+#sladetext{
+	position: absolute;
+	top: 164px;
+	right: 0%;
+	width: 100%;
+	text-align: center;
+	#font-family: roboto,sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+	color: grey;
+}
+#sladestroka{
+	position: absolute;
+	top: 230px;
+    right: 5%;
+    width: 90%;
+	text-align: center;
+	#font-family: roboto,monospace;
+	font-size: 20px;
+	font-weight: 300;
+	color: grey;
+}
+input[name="r"]{
+	position: absolute;
+	display: none;
+}
+
+
+#r1:checked ~ .s1{
+	margin-left:0;
+}
+#r2:checked ~ .s1{
+	margin-left:-25%;
+}
+#r3:checked ~ .s1{
+	margin-left:-50%;
+}
+
+
+.arrowrigh{
+	position: absolute;
+	top: 0;
+	right: 0%;
+	width: 10%;
+	height: 40px;
+	background: grey;
+}
+.arrowleft{
+	position: absolute;
+	top: 0;
+	right: 90%;
+	width: 10%;
+	height: 40px;
+	background: grey;
+}
+
+/*_________________________________________________________________________________________________*/
+#Kontent4{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: 500px;
+	background:#f1f1f1;
+}
+#Kontent4Block{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width:100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-flow: wrap;
+}
+
+.Kontent4Blocks{
+	position: relative;
+	top:0px;
+	right: 0px;
+	width: 981px;
+	height:100%;
+}
+#Kontent4BlocksTitle{
+	position: absolute;
+	top: 35px;
+    right: 1%;
+    width: 57%;
+	text-align: left;
+	font-family: roboto;
+	font-size: 40px;
+	font-weight: 600;
+}
+.Kontent4BlocksStroka{
+	position: absolute;
+	top: 111px;
+    right: 1%;
+    width: 57%;
+	text-align: left;
+	font-family: roboto;
+	font-size: 18px;
+	font-weight: 300;
+}
+.Kontent4Spisok{
+	position: absolute;
+	top: 310px;
+    right: 0%;
+    width:58%;
+	height: 50px;
+	list-style: none;
+	padding: 0px;
+}
+.Kontent4SpisokLi{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 20%;
+	text-align: center;
+	font-family: roboto;
+	font-size: 17px;
+	font-weight: 300;
+	display: inline;
+	margin-right: 29px;
+}
+.Kontent4SpisokLi::before{
+	content: "";
+	position: absolute;
+	top: 0;
+    left: -15%;
+    width: 20px;
+    height: 20px;
+    background: url(../img/MarckChek.png)no-repeat 50% 50%/100%;
+}
+.Kontent3BlocksImg{
+	position: absolute;
+	top: 25px;
+    left: 0%;
+    width: 383px;
+    height: 450px;
+}
+
+
+
+/*_________________________________________________________________________________________________*/
+
+
+
+#Kontent5{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: 955px;
+	background: url(../img/dainis-graveris-y2cOf7SfeMI-unsplash.jpg)no-repeat 50% 50%/1910px;
+}
+#Kontent5::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(358deg, #240365d6, #5f005fdb);
+    backdrop-filter: blur(5px);
+}
+#Kontent5Block{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 981px;
+	height: 100%;
+	margin: 0 auto;
+}
+#Kontent5BlockTitle{
+	position: absolute;
+	top: 90px;
+    right: 45%;
+    width: 26%;
+    text-align: center;
+    font-family: roboto;
+    font-size: 100px;
+    font-weight: 600;
+    color: white;
+    font-style: oblique;
+    transform: rotate(-11deg);
+}
+#Kontent5BlockTitle::after{
+	content: "UP!";
+    position: absolute;
+    top: 75px;
+    right: -36%;
+    width: 56%;
+    text-align: center;
+    font-family: roboto;
+    font-size: 110px;
+    font-weight: 600;
+    color: #c332ff;
+}
+.Kontent5Time{
+	position: absolute;
+	top: 380px;
+    right: 54%;
+    width: 40%;
+    height: 100px;
+    background: #330133;
+    border: solid 10px #961996;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 3px #c435fe;
+}
+#timer{
+	position: relative;
+	top: 3px;
+	right: -6%;
+	width: 50%;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 100;
+	color: white;
+	letter-spacing: 5px;
+}
+.Kontent5Blocks{
+	position: relative;
+	top: 349px;
+    right: -4%;
+    width: 45%;
+	height: 600px;
+	display: inline-block;
+	margin-right: 25px;
+}
+.Kontent5BlocksImg{
+	position: absolute;
+	top: 0;
+    right: 13%;
+    width: 73%;
+    height: 89%;
+}
+.Kontent5BlockText{
+	position: absolute;
+    top: 45px;
+    right: 2%;
+    width: 33%;
+    text-align: center;
+    font-family: roboto;
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+    background: #d80000;
+    border-radius: 20px;
+    transform: rotate(-18deg);
+}
+.Kontent5BlockStroka{
+	position: absolute;
+    top: 0px;
+    right: 12%;
+    width: 20%;
+    text-align: center;
+    font-family: roboto;
+    font-size: 33px;
+    font-weight: 600;
+    color: #ff0707;
+    font-style: italic;
+    text-decoration: line-through;
+    transform: rotate(-15deg);
+}
+.Kontent5forma{
+	position: absolute;
+	top: 120px;
+	right: 5%;
+	width: 90%;
+	height: 65%;
+}
+.Kontent5formainput{
+	position: relative;
+	top: 65px;
+	right:-2%;
+	width: 95%;
+	height: 50px;
+	text-align: left;
+	font-family: roboto;
+	font-size: 20px;
+	font-weight: 300;
+	color: purple;
+	padding:10px;
+	border:solid 2px #c435fe;
+	background: #f3f3f3;
+	border-radius: 10px;
+	transition: 0.4s;
+	display: block;
+	margin-bottom: 25px;
+	outline: none;
+	z-index: 3
+}
+.Kontent5formainput:hover{
+    border:solid 2px #961d96;
+}
+.Podskaska{
+	position: relative;
+}
+.Podskaska::before{
+	content: attr(title);
+	position: absolute;
+	top: 22px;
+    left: 386px;
+    width: 315px;
+	padding: 10px;
+	text-align: center;
+	font-family: roboto;
+	font-size: 17px;
+	font-weight: 300;
+	background: #000000d1;
+	color: white;
+	display: block;
+	border-radius: 45px 20px 20px 0px;
+	visibility: hidden;
+	z-index: 2;
+
+}
+.Podskaska:hover::before{
+	visibility: visible;
+}
+.Kontent5FormaKnopka{
+	position: absolute;
+	top: 300px;
+    right: 63%;
+    width: 35%;
+    height: 50px;
+	text-align: center;
+	font-family: roboto;
+	font-size: 20px;
+	font-weight: 300;
+	color: white;
+	border:none;
+	background: linear-gradient(359deg, #801880, #9902fd);
+	border-radius:5px;
+	cursor: pointer;
+	outline: none;
+	transition: 0.3s;
+}
+.Kontent5FormaKnopka:hover{
+	    background: linear-gradient(2deg, #180048f0, #7a30f8);
+}
+/*_________________________________________________________________________________________________*/
+footer{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: 150px;
+	background: linear-gradient(0deg, #460040, #bd00bd);
+}
+#footerblock{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 981px;
+	height: 100%;
+	margin:0 auto;
+}
+.footerblocks{
+	position: relative;
+	top: 0;
+    right: -2%;
+    width: 47%;
+    height: 100%;
+    display: inline-block;
+    margin-right: 25px;
+}
+.footerLogo{
+	position: absolute;
+	top: 49px;
+    right: 0%;
+    width: 100%;
+    text-align: left;
+    font-family: roboto;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+.footerLogo::before{
+	content:"UP!";
+	position: absolute;
+    top: -13px;
+    right: -28%;
+    width: 100%;
+    text-align: left;
+    font-family: roboto;
+    font-size: 65px;
+    font-weight: 600;
+    color: #d366ff;
+}
+.footertext{
+	position: absolute;
+	top: 58px;
+    right: 0%;
+    width: 100%;
+    text-align: center;
+    font-family: roboto;
+    font-size: 25px;
+    font-weight: 300;
+    color: #dcb5ff;
+}
+
+/*________________________________________________________________________________________________*/
+
+@media only screen and (max-width: 981px){
+	.KontentVideoMedia{right: -38%;}
+}
