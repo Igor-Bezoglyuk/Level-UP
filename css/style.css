@@ -870,7 +870,7 @@ input[name="r"]{
 }
 .Kontent5BlockText{
 	position: absolute;
-    top: 45px;
+    top: 55px;
     right: 2%;
     width: 33%;
     text-align: center;
@@ -881,6 +881,7 @@ input[name="r"]{
     background: #d80000;
     border-radius: 20px;
     transform: rotate(-18deg);
+    animation: pulse 1s infinite;
 }
 .Kontent5BlockStroka{
 	position: absolute;
@@ -1035,6 +1036,23 @@ footer{
 }
 
 /*________________________________________________________________________________________________*/
+
+
+
+@keyframes pulse {
+0% {
+transform: scale();
+}
+
+70% {
+transform: scale(1);
+}
+
+100% {
+transform: scale(0.95);
+}
+}
+
 
 @media only screen and (max-width: 981px){
 	.KontentVideoMedia{right: -38%;}
