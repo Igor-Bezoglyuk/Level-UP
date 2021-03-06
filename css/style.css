@@ -945,12 +945,26 @@ input[name="r"]{
 	background: #000000d1;
 	color: white;
 	display: block;
-	border-radius: 45px 20px 20px 0px;
+	border-radius: 10px;
 	visibility: hidden;
 	z-index: 2;
 
 }
 .Podskaska:hover::before{
+	visibility: visible;
+}
+.Podskaska::after{
+	content: "";
+	position: absolute;
+	top: 67px;
+    left: 395px;
+    border-top: 13px solid #000000d1;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    bottom: 20px;
+	visibility: hidden;
+}
+.Podskaska:hover::after{
 	visibility: visible;
 }
 .Kontent5FormaKnopka{
