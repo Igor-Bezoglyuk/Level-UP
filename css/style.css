@@ -105,15 +105,17 @@ article{
     z-index: 2;
 }
 .Kontent-Blocks-text{
-	position: absolute;
-	top: 50px;
-    right: 31%;
-    width: 76%;
+	position: relative;
+    top: 0px;
+    right: 0px;
+    /* width: 76%; */
     text-align: left;
     font-family: roboto;
     font-size: 50px;
     font-weight: 600;
     color: white;
+    padding: 23px;
+    background: url(../img/LentaPodarok.png) no-repeat -17% 50%/95%;
 }
 .Kontent-Blocks-text::before{
 	content:"UP";
@@ -125,8 +127,9 @@ article{
     font-family: roboto;
     font-size: 70px;
     font-weight: 900;
-	color: purple;
+	color: #efcc52;
 }
+
 .Kontent-Block-Spisok{
 	position: absolute;
 	top: 152px;
@@ -216,7 +219,7 @@ article{
     right: 0%;
     width: 100%;
     height: 100%;
-    background: #efefefe8;
+    background: #efefefd4;
     backdrop-filter: blur(5px);
 }
 #Kontent2Block{
@@ -543,10 +546,10 @@ article{
     width: 16%;
     height: 148px;
     border-radius: 100%;
-    background: url(../img/unnamed.jpg);
-    background-position: 50% 50%;
+    background: url(../img/doctor.png);
+    background-position: 56% -1%;
     background-repeat: no-repeat;
-    background-size: 103%;
+    background-size: 234%;
 }
 .sladetext{
 	position: absolute;
@@ -725,6 +728,17 @@ input[name="r"]{
 	font-size: 40px;
 	font-weight: 600;
 }
+#Kontent4BlocksTitle::before{
+	content: "UP!";
+    position: absolute;
+    top: -8px;
+    left: 18%;
+    text-align: left;
+    font-family: roboto;
+    font-size: 65px;
+    font-weight: 600;
+    color: #d602d6;
+}
 .Kontent4BlocksStroka{
 	position: absolute;
 	top: 111px;
@@ -794,7 +808,7 @@ input[name="r"]{
     right: 0%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(358deg, #240365d6, #5f005fdb);
+    background: linear-gradient(358deg, #240365d6, #5f005fbf);
     backdrop-filter: blur(5px);
 }
 #Kontent5Block{
@@ -840,6 +854,7 @@ input[name="r"]{
     border: solid 10px #961996;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 3px #c435fe;
+    z-index: 9;
 }
 #timer{
 	position: relative;
@@ -857,16 +872,20 @@ input[name="r"]{
 	top: 349px;
     right: -4%;
     width: 45%;
-	height: 600px;
+	height: 500px;
 	display: inline-block;
 	margin-right: 25px;
+}
+.Kontent5Blocksborder{
+    border: solid 2px #d366ff;
+    box-shadow: 0px 0px 16px -5px #ffbeff;
+    background: #730ca94d;
+    border-radius: 20px;
 }
 .Kontent5BlocksImg{
 	position: absolute;
 	top: 0;
     right: 13%;
-    width: 73%;
-    height: 89%;
 }
 .Kontent5BlockText{
 	position: absolute;
@@ -995,7 +1014,7 @@ footer{
 	right: 0%;
 	width: 100%;
 	height: 150px;
-	background: linear-gradient(0deg, #460040, #bd00bd);
+	background:#34003e;
 }
 #footerblock{
 	position: relative;
@@ -1009,16 +1028,14 @@ footer{
 	position: relative;
 	top: 0;
     right: -2%;
-    width: 47%;
-    height: 100%;
     display: inline-block;
-    margin-right: 25px;
+    margin: 0 100px;
+    padding-top: 45px;
 }
 .footerLogo{
-	position: absolute;
-	top: 49px;
-    right: 0%;
-    width: 100%;
+	position:relative;
+	top: 0px;
+    left: 0%;
     text-align: left;
     font-family: roboto;
     font-size: 50px;
@@ -1027,10 +1044,9 @@ footer{
 }
 .footerLogo::before{
 	content:"UP!";
-	position: absolute;
+	position: relative;
     top: -13px;
-    right: -28%;
-    width: 100%;
+    float: right;
     text-align: left;
     font-family: roboto;
     font-size: 65px;
@@ -1038,10 +1054,9 @@ footer{
     color: #d366ff;
 }
 .footertext{
-	position: absolute;
-	top: 58px;
+	position: relative;
+	top: 10px;
     right: 0%;
-    width: 100%;
     text-align: center;
     font-family: roboto;
     font-size: 25px;
