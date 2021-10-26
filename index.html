@@ -5,18 +5,21 @@
 	<title>LevelUp</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link  rel="shortcut icon" type="image/png" href="img/UPLogo.png">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
 <header>
-	<nav class="navbar navbar-expand-lg">
-     <div class="container-fluid ms-5 w-100">
+<div class="container-fluid">
+	<nav class="navbar row navbar-expand-lg">
+     <div class="container-fluid col ms-5">
      <a class="navbar-brand fs-3 text-white" href="#">
-      <img src="img/ArrowUp.png" alt="" width="50" height="50" class="d-inline-block align-top">
+      <img src="img/UPLogo.png" alt="" width="50" height="50" class="d-inline-block align-top">
       Level</a>
   </div>
 </nav>
+</div>
 </header>
 
 <article>
@@ -27,10 +30,10 @@
 			<source src="img/production ID_4059262.webm" type="video/webm">
 			<source src="img/VideoScreen.jpg" type="img/jpg">
 		</video>
-
-		<div id="KontentBlock">
-			
-			<div class="Kontent-Blocks">
+        
+        <div class="container pt-5 mt-5">
+		<div class="KontentBlock row justify-content-center pt-5 mt-5">
+			<div class="Kontent-Blocks col-xxl-4 col-xl-4 col-lg-5 col-md-6 col-sm-4 ">
 				<h5 class="Kontent-Blocks-text">Level</h5>
 				<ul class="Kontent-Block-Spisok">
 					<li class="Spisik-li">Подарит мощную энергию</li>
@@ -39,58 +42,116 @@
 					<li class="Spisik-li">Улучшает кровообращение,полезен для здововья</li>
 				</ul>
 
-				<a class="Kontent-Silka" href="#Kontent5"><input class="Kontent-Knopka"  type="button" name="Knopka" value="Заказать"></a>
+				<a class="Kontent-Silka" href="#Kontent5"><input class="Kontent-Knopka btn"  type="button" name="Knopka" value="Заказать"></a>
 			</div>
-			<div class="Kontent-Blocks">
+			<div class="Kontent-Blocks col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-4 ">
 				<img class="Kontent-Blocks-Img" src="img/prod.png" align="Препорат">
 			</div>
+		</div>
 		</div>
 	</section>
 
 	<section id="Kontent2">
-		<div id="Kontent2Block">
-			<h5 id="Kontent2BlockTitle">Подробно о продукте</h5>
-
+		<div class="container pt-5 pb-5">
+		<div class="Kontent2Block row justify-content-center text-center pt-5 ">
+			<div class="Kontent2-blockcon col-3">
 			<div class="Kontent2Blocks">
-				<div class="Kontent2BlocksImg Block-img"></div>
+				<img class="Kontent2BlocksImg" src="img/Carrot.png" alt="">
 				<p class="Kontent2BlocksStroka">Норвежская морковь</p>
 			</div>
 
 			<div class="Kontent2Blocks">
-				<div class="Kontent2BlocksImg Block-img2"></div>
+				<img class="Kontent2BlocksImg" src="img/Granat.png" alt="">
 				<p class="Kontent2BlocksStroka">Спартанский гранат</p>
 			</div>
 
 			<div class="Kontent2Blocks">
-				<div class="Kontent2BlocksImg Block-img3"></div>
+				<img class="Kontent2BlocksImg" src="img/Pomidor.png" alt="">
 				<p class="Kontent2BlocksStroka">Греческий помидор</p>
 			</div>
+            </div>
+            
+            <div class="Kontent2-block-con col-5 ms-4 me-4">
+                <img class="Kontent2Img" src="img/prod.png" alt="logo">
+				<a class="Kontent2BlocksSilka" href="#Kontent5"><input class="Kontent2BlocksKnopka btn mt-3" type="button" name="knopka" value="Подробнее"></a>
+            </div>
 
-			<div id="Kontent2Img">
-				<a class="Kontent2BlocksSilka" href="#Kontent5"><input class="Kontent2BlocksKnopka" type="button" name="knopka" value="Подробнее"></a>
-			</div>
-
-			<div class="Kontent2Blocks2">
-				<div class="Kontent2BlocksImg Block-img4"></div>
+            <div class="Kontent2-blockcon col-3">
+			<div class="Kontent2Blocks">
+				<img class="Kontent2BlocksImg" src="img/Himya.png" alt="">
 				<p class="Kontent2BlocksStroka">Полезные добавки</p>
 			</div>
 
-			<div class="Kontent2Blocks2">
-				<div class="Kontent2BlocksImg Block-img5"></div>
+			<div class="Kontent2Blocks">
+				<img class="Kontent2BlocksImg" src="img/Aggs.png" alt="">
 				<p class="Kontent2BlocksStroka">Айца павлина</p>
 			</div>
 
-			<div class="Kontent2Blocks2">
-				<div class="Kontent2BlocksImg Block-img6"></div>
+			<div class="Kontent2Blocks">
+				<img class="Kontent2BlocksImg" src="img/Banano.png" alt="">
 				<p class="Kontent2BlocksStroka">Олимпийские бананы</p>
 			</div>
+		</div>
+		</div>
+		</div>
+	</section>
+
+    <section id="Kontent4">
+		<div class="container">
+		<div class="Kontent4Block row justify-content-center">
+            <div class="Kontent4Blocks col-xxl-4 col-xl-5 col-lg-6 col-md-6">
+            	<img class="Kontent3BlocksImg" src="img/doctor.png" alt="">
+            </div>
+
+            <div class="Kontent4Blocks col-xxl-5 col-xl-6 col-lg-4 col-md-6">
+                <h5 id="Kontent4BlocksTitle">Level</h5>
+                <p class="Kontent4BlocksStroka pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur.</p>
+
+            	<ul class="Kontent4Spisok">
+            		<li class="Kontent4SpisokLi">Три характеристики</li>
+            		<li class="Kontent4SpisokLi">Три характеристики</li>
+            		<li class="Kontent4SpisokLi">Три характеристики</li>
+            	</ul>
+            </div>
+		</div>
+		</div>
+	</section>
+
+	<section id="Kontent5">
+		<div class="container pt-5 pb-5">
+		<h5 id="Kontent5BlockTitle">Level</h5>
+		<div class="Kontent5Block row pt-5 pb-4 justify-content-center">
+			<div class="Kontent5Blocks col-xxl-4 col-xl-4 col-lg-5 col-md-6 col-sm-4 Kontent5Blocksborder p-4" >
+				<div class="Kontent5Time text-center">
+                <span id="timer"></span>
+			    </div>
+                <form class="Kontent5forma pt-5" name="Forma" method="POST" action="ph/">
+                	<span class="Podskaska" title="Пример: Булкин Иван Иваныч" >
+                	<input class="Kontent5formainput"type="text" name="name" placeholder="Ф.И.О"></span>
+                	<span class="Podskaska" title="Пример: IvanBulkin@mail.ru">
+                	<input class="Kontent5formainput"type="email" name="email" placeholder="Ваша почта"></span>
+                	<span class="Podskaska" title="Пример: 8-983-345-34-29">
+                	<input class="Kontent5formainput"type="number" name="phone" placeholder="Вашь телефон"></span>
+                	<input class="Kontent5FormaKnopka btn"type="submit" name="knopka" value="Заказать">
+                </form>
+			</div>
+
+			<div class="Kontent5Blocks col-xxl-4 col-xl-5 col-lg-5 col-md-5 col-sm-4 ms-5">
+				<img class="Kontent5BlocksImg" src="img/prod.png" alt="">
+
+				<h5 class="Kontent5BlockText">500 P</h5>
+				<p class="Kontent5BlockStroka">900 P</p>
+			</div>
+		</div>
 		</div>
 	</section>
 
 	<section id="Kontent3">
-		<div id="Kontent3Block">
-			<h5 id="Kontent3BlockTitle">Отзывы</h5>
-             
+		<div class="container pb-5">
+		<h5 id="Kontent3BlockTitle">Отзывы</h5>
+		<div class="Kontent3Block row">          
              <input type="radio" name="r" id="r11" checked="">
 				<label for="carousel-3" class="carousel-control prev control-1" onclick="back_button()"></label>
        			<label for="carousel-2" class="carousel-control next control-1" onclick="next_button()"></label>
@@ -120,70 +181,25 @@
             </div>
 
 		</div>
-	</section>
-
-	<section id="Kontent4">
-		<div id="Kontent4Block">
-
-            <div class="Kontent4Blocks">
-            	<img class="Kontent3BlocksImg" src="img/doctor.png" alt="">
-
-                <h5 id="Kontent4BlocksTitle">Level</h5>
-                <p class="Kontent4BlocksStroka">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur.</p>
-
-            	<ul class="Kontent4Spisok">
-            		<li class="Kontent4SpisokLi">Три характеристики</li>
-            		<li class="Kontent4SpisokLi">Три характеристики</li>
-            		<li class="Kontent4SpisokLi">Три характеристики</li>
-            	</ul>
-            </div>
-		</div>
-	</section>
-
-	<section id="Kontent5">
-		<div id="Kontent5Block">
-			<h5 id="Kontent5BlockTitle">Level</h5>
-
-			<div class="Kontent5Time">
-                	<span id="timer"></span>
-			</div>
-
-
-			<div class="Kontent5Blocks Kontent5Blocksborder" >
-                <form class="Kontent5forma" name="Forma" method="POST" action="ph/">
-                	<span class="Podskaska" title="Пример: Булкин Иван Иваныч" >
-                	<input class="Kontent5formainput"type="text" name="name" placeholder="Ф.И.О"></span>
-                	<span class="Podskaska" title="Пример: IvanBulkin@mail.ru">
-                	<input class="Kontent5formainput"type="email" name="email" placeholder="Ваша почта"></span>
-                	<span class="Podskaska" title="Пример: 8-983-345-34-29">
-                	<input class="Kontent5formainput"type="number" name="phone" placeholder="Вашь телефон"></span>
-                	<input class="Kontent5FormaKnopka"type="submit" name="knopka" value="Заказать">
-                </form>
-			</div>
-
-			<div class="Kontent5Blocks">
-				<img class="Kontent5BlocksImg" src="img/prod.png" alt="">
-
-				<h5 class="Kontent5BlockText">500 P</h5>
-				<p class="Kontent5BlockStroka">900 P</p>
-			</div>
 		</div>
 	</section>
 </article>
 
 <footer>
-	<div id="footerblock">
-		<div class="d-flex justify-content-center flex-wrap">
-		<div class="footerblocks">
+	<div class="container-fluid pt-3 ps-5 pe-5">
+	<div class="footerblock row justify-content-center">
+		<div class="footerblocks col-4">
 			<h5 class="footerLogo">Level</h5>
 		</div>
 
-		<div class="footerblocks">
-			<p class="footertext"> Site Level-UP: Igor-Bezoglyuk ©</p>
+		<div class="footerblocks col-4">
+			<p class="footertext pt-4"> Site Level-UP: Igor-Bezoglyuk ©</p>
 		</div>
+
+		<div class="footerblocks col-4">
+			<p class="footertext-phone pt-3">8-983-543-67-39</p>
 		</div>
+    </div>
 	</div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
