@@ -1,3 +1,7 @@
+@font-face {
+    font-family:Roboto;
+    src: url(../font/Roboto-Regular.ttf);
+}
 body{
 	margin: 0px;
 	font-family: roboto,arial;
@@ -7,24 +11,12 @@ header{
 	top: 0;
 	right: 0%;
 	width: 100%;
-	height:80px;
+	height:auto;
 	z-index: 999;
-}
-.navbar{
-	position: relative;
-	top: 0;
-	right: 0%;
-	width: 90%;
-	height: 100%;
-	margin:0 auto;
 }
 #Logo{
 	position: relative;
-	top: 0;
-	right: 0%;
-	width: 30%;
-	height: 100%;
-	background: ;
+	width: 100%;
 }
 .navbar-brand{
 	position: relative
@@ -84,38 +76,21 @@ article{
     width: 1910px;
     height: auto;
 }
-#KontentBlock{
-	position:absolute;
-	top: 0;
-    right: 0%;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    flex-flow: wrap;
-}
 .Kontent-Blocks{
 	position: relative;
-	top: 190px;
-    right: -1%;
-    width: 460px;
-    height: 500px;
+    height: auto;
     display: inline-block;
-    margin-right: 25px;
     z-index: 2;
 }
 .Kontent-Blocks-text{
 	position: relative;
-    top: 0px;
-    right: 0px;
-    /* width: 76%; */
     text-align: left;
     font-family: roboto;
     font-size: 50px;
     font-weight: 600;
     color: white;
-    padding: 23px;
-    background: url(../img/LentaPodarok.png) no-repeat -17% 50%/95%;
+    padding: 20px 0px;
+    background: url(../img/LentaPodarok.png) no-repeat 50% 50%/95%;
 }
 .Kontent-Blocks-text::before{
 	content:"UP";
@@ -131,11 +106,9 @@ article{
 }
 
 .Kontent-Block-Spisok{
-	position: absolute;
-	top: 152px;
-    right: 5%;
-    width: 82%;
-    height: 400px;
+	position: relative;
+    width:max-contant;
+    height:auto;
     list-style: none;
     padding: 0px;
 }
@@ -143,7 +116,6 @@ article{
 	position: relative;
 	top: 0;
 	right: 0%;
-	width: 100%;
 	text-align: left;
 	font-family: roboto;
 	font-size: 20px;
@@ -168,25 +140,20 @@ article{
 }
 .Kontent-Blocks-Img{
 	position: relative;
-    top: 0;
-    right: -11%;
-    width: 335px;
-    height: 500px;
+    width: 100%;
+    height: auto;
 }
 
 .Kontent-Silka{
-	position: absolute;
-    top: 411px;
-    right: 37%;
-    width: 50%;
-    height: 50px;
+	position: relative;
+    width:max-content;
 }
 .Kontent-Knopka{
-	position: absolute;
+	position: relative;
 	top: 0;
 	right: 0%;
-	width: 100%;
-	height: 100%;
+	width: 250px;
+	height: 50px;
 	text-align: center;
 	font-family: roboto;
 	font-size: 20px;
@@ -209,7 +176,7 @@ article{
 	top: 0;
 	right: 0%;
 	width: 100%;
-	height: 790px;
+	height: auto;
 	background: url(../img/istockcasal-cama-sexo.jpg)no-repeat 50% 50%/1900px;
 }
 #Kontent2::before{
@@ -222,12 +189,11 @@ article{
     background: #efefefd4;
     backdrop-filter: blur(5px);
 }
-#Kontent2Block{
+.Kontent2Block{
 	position: relative;
 	top: 0;
 	right: 0%;
-	width: 981px;
-	height: 100%;
+	height:auto;
 	margin:0 auto;
 }
 #Kontent2BlockTitle{
@@ -243,99 +209,48 @@ article{
 
 .Kontent2Blocks{
 	position: relative;
-	top: 130px;
-    right: -4%;
-    width: 21%;
-    height: 200px;
+    height: auto;
     display:block;
-    margin-bottom: 25px;
+    margin-bottom: 60px;
 }
 .Kontent2Blocks::before{
-	content:"";
-	position: absolute;
-	top: 0px;
-    right: 18%;
-    width: 61%;
-    height: 60%;
-	border:solid 2px purple;
-	border-radius: 100%;
+content: "";
+position: absolute;
+top: 0px;
+width: 107px;
+height: 100px;
+border-radius:100%;
+border: solid 3px purple;
+margin:-9px -15px;
 }
-#Kontent2Img{
-	position: absolute;
-	top: 185px;
-    right: 30%;
-    width: 40%;
-    height: 400px;
-	background: url(../img/prod.png) no-repeat 50% 50%/215px;
+.Kontent2Img{
+	position:relative;
 }
-.Kontent2Blocks2{
-	position: relative;
-	top: -547px;
-    right: -75%;
-    width: 21%;
-    height: 200px;
-	display:block;
-	margin-bottom:25px;
-}
-.Kontent2Blocks2::before{
-	content:"";
-	position: absolute;
-	top: 0px;
-    right: 18%;
-    width: 61%;
-    height: 60%;
-	border:solid 2px purple;
-	border-radius: 100%;
-}
+
 .Kontent2BlocksImg{
-	position: absolute;
-	top: 9px;
-    right: 25%;
-    width: 45%;
-    height: 99px;
+	position: relative;
+	width:75px;
 }
-.Block-img{
-	background: url(../img/Carrot.png)no-repeat 50% 50%/75px;
-}
-.Block-img2{
-	background: url(../img/Granat.png)no-repeat 50% 50%/75px;
-}
-.Block-img3{
-	background: url(../img/Pomidor.png)no-repeat 50% 50%/75px;
-}
-.Block-img4{
-	background: url(../img/Himya.png)no-repeat 50% 50%/75px;
-}
-.Block-img5{
-	background: url(../img/Aggs.png)no-repeat 50% 50%/75px;
-}
-.Block-img6{
-	background: url(../img/Banano.png)no-repeat 50% 50%/75px;
-}
+
 .Kontent2BlocksStroka{
-	position: absolute;
-	top: 130px;
+	position: relative;
 	right: 0%;
 	width: 100%;
 	text-align: center;
 	font-family: roboto;
 	font-size: 20px;
 	font-weight: 300;
+	padding-top: 20px;
 }
 
 .Kontent2BlocksSilka{
-	position: absolute;
-	top: 411px;
-    right: 30%;
-    width: 40%;
-    height: 50px;
+	position: relative;
+    width:max-content;
 }
 .Kontent2BlocksKnopka{
-	position: absolute;
-	top: 0;
-	right: 0%;
-	width: 100%;
-	height: 100%;
+	position: relative;
+	width:250px;
+	height:50px;
 	text-align: center;
 	font-family: roboto;
 	font-size: 20px;
@@ -350,6 +265,7 @@ article{
 }
 .Kontent2BlocksKnopka:hover{
 	background: linear-gradient(2deg, #611159, #7a30f8);
+	box-shadow: none;
 }
 /*______________________________________________________________________________________________________*/
 #Kontent3{
@@ -357,16 +273,9 @@ article{
 	top: 0;
 	right: 0%;
 	width: 100%;
-	height: 600px;
+	height: auto;
 }
-#Kontent3Block{
-	position: relative;
-	top: 0;
-	right: 0%;
-	width: 981px;
-	height: 100%;
-	margin:0 auto;
-}
+
 #Kontent3BlockTitle{
 	position: absolute;
 	top: 50px;
@@ -376,8 +285,6 @@ article{
 	font-size: 40px;
 	font-weight: 600;
 }
-
-
 
 .carousel {
     position: relative;
@@ -697,64 +604,38 @@ input[name="r"]{
 	top: 0;
 	right: 0%;
 	width: 100%;
-	height: 500px;
+	height: auto;
 	background:#f1f1f1;
 }
-#Kontent4Block{
-	position: relative;
-	top: 0;
-	right: 0%;
-	width:100%;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	flex-flow: wrap;
-}
 
-.Kontent4Blocks{
-	position: relative;
-	top:0px;
-	right: 0px;
-	width: 981px;
-	height:100%;
-}
 #Kontent4BlocksTitle{
-	position: absolute;
-	top: 35px;
-    right: 1%;
-    width: 57%;
+	position:relative;
 	text-align: left;
 	font-family: roboto;
 	font-size: 40px;
 	font-weight: 600;
 }
-#Kontent4BlocksTitle::before{
+#Kontent4BlocksTitle::after{
 	content: "UP!";
-    position: absolute;
-    top: -8px;
-    left: 18%;
-    text-align: left;
+    position: relative;
+    top: 17px;
+    text-align: right;
     font-family: roboto;
     font-size: 65px;
     font-weight: 600;
     color: #d602d6;
 }
 .Kontent4BlocksStroka{
-	position: absolute;
-	top: 111px;
-    right: 1%;
-    width: 57%;
+	position: relative;
 	text-align: left;
 	font-family: roboto;
 	font-size: 18px;
 	font-weight: 300;
 }
 .Kontent4Spisok{
-	position: absolute;
-	top: 310px;
+	position: relative;
     right: 0%;
-    width:58%;
-	height: 50px;
+	height: auto;
 	list-style: none;
 	padding: 0px;
 }
@@ -762,13 +643,12 @@ input[name="r"]{
 	position: relative;
 	top: 0;
 	right: 0%;
-	width: 20%;
 	text-align: center;
 	font-family: roboto;
-	font-size: 17px;
+	font-size: 15px;
 	font-weight: 300;
-	display: inline;
-	margin-right: 29px;
+	display: inline-block;
+	margin:15px;
 }
 .Kontent4SpisokLi::before{
 	content: "";
@@ -780,7 +660,7 @@ input[name="r"]{
     background: url(../img/MarckChek.png)no-repeat 50% 50%/100%;
 }
 .Kontent3BlocksImg{
-	position: absolute;
+	position: relative;
 	top: 25px;
     left: 0%;
     width: 383px;
@@ -791,14 +671,12 @@ input[name="r"]{
 
 /*_________________________________________________________________________________________________*/
 
-
-
 #Kontent5{
 	position: relative;
 	top: 0;
 	right: 0%;
 	width: 100%;
-	height: 955px;
+	height: auto;
 	background: url(../img/dainis-graveris-y2cOf7SfeMI-unsplash.jpg)no-repeat 50% 50%/1910px;
 }
 #Kontent5::before{
@@ -811,19 +689,9 @@ input[name="r"]{
     background: linear-gradient(358deg, #240365d6, #5f005fbf);
     backdrop-filter: blur(5px);
 }
-#Kontent5Block{
-	position: relative;
-	top: 0;
-	right: 0%;
-	width: 981px;
-	height: 100%;
-	margin: 0 auto;
-}
+
 #Kontent5BlockTitle{
-	position: absolute;
-	top: 90px;
-    right: 45%;
-    width: 26%;
+	position:relative;
     text-align: center;
     font-family: roboto;
     font-size: 100px;
@@ -834,10 +702,7 @@ input[name="r"]{
 }
 #Kontent5BlockTitle::after{
 	content: "UP!";
-    position: absolute;
-    top: 75px;
-    right: -36%;
-    width: 56%;
+    position: relative;
     text-align: center;
     font-family: roboto;
     font-size: 110px;
@@ -845,11 +710,8 @@ input[name="r"]{
     color: #c332ff;
 }
 .Kontent5Time{
-	position: absolute;
-	top: 380px;
-    right: 54%;
-    width: 40%;
-    height: 100px;
+	position: relative;
+    height: auto;
     background: #330133;
     border: solid 10px #961996;
     border-radius: 10px;
@@ -858,9 +720,6 @@ input[name="r"]{
 }
 #timer{
 	position: relative;
-	top: 3px;
-	right: -6%;
-	width: 50%;
 	text-align: center;
 	font-size: 50px;
 	font-weight: 100;
@@ -869,12 +728,8 @@ input[name="r"]{
 }
 .Kontent5Blocks{
 	position: relative;
-	top: 349px;
-    right: -4%;
-    width: 45%;
 	height: 500px;
 	display: inline-block;
-	margin-right: 25px;
 }
 .Kontent5Blocksborder{
     border: solid 2px #d366ff;
@@ -883,15 +738,13 @@ input[name="r"]{
     border-radius: 20px;
 }
 .Kontent5BlocksImg{
-	position: absolute;
+	position: relative;
 	top: 0;
-    right: 13%;
 }
 .Kontent5BlockText{
 	position: absolute;
     top: 55px;
     right: 2%;
-    width: 33%;
     text-align: center;
     font-family: roboto;
     font-size: 45px;
@@ -901,12 +754,12 @@ input[name="r"]{
     border-radius: 20px;
     transform: rotate(-18deg);
     animation: pulse 1s infinite;
+    padding: 0px 20px;
 }
 .Kontent5BlockStroka{
 	position: absolute;
     top: 0px;
     right: 12%;
-    width: 20%;
     text-align: center;
     font-family: roboto;
     font-size: 33px;
@@ -925,9 +778,7 @@ input[name="r"]{
 }
 .Kontent5formainput{
 	position: relative;
-	top: 65px;
-	right:-2%;
-	width: 95%;
+	width: 100%;
 	height: 50px;
 	text-align: left;
 	font-family: roboto;
@@ -987,10 +838,8 @@ input[name="r"]{
 	visibility: visible;
 }
 .Kontent5FormaKnopka{
-	position: absolute;
-	top: 300px;
-    right: 63%;
-    width: 35%;
+	position: relative;
+    width: 250px;
     height: 50px;
 	text-align: center;
 	font-family: roboto;
@@ -1005,32 +854,24 @@ input[name="r"]{
 	transition: 0.3s;
 }
 .Kontent5FormaKnopka:hover{
-	    background: linear-gradient(2deg, #180048f0, #7a30f8);
-}
+    background: linear-gradient(2deg, #180048f0, #7a30f8);
+    box-shadow: none;
+}  
 /*_________________________________________________________________________________________________*/
 footer{
 	position: relative;
 	top: 0;
 	right: 0%;
 	width: 100%;
-	height: 150px;
-	background:#34003e;
+	height: auto;
+	background:linear-gradient(#3b0b54,#180422);
 }
-#footerblock{
-	position: relative;
-	top: 0;
-	right: 0%;
-	width: 981px;
-	height: 100%;
-	margin:0 auto;
-}
+
 .footerblocks{
 	position: relative;
 	top: 0;
-    right: -2%;
+    right:0%;
     display: inline-block;
-    margin: 0 100px;
-    padding-top: 45px;
 }
 .footerLogo{
 	position:relative;
@@ -1042,11 +883,9 @@ footer{
     font-weight: 600;
     color: white;
 }
-.footerLogo::before{
+.footerLogo::after{
 	content:"UP!";
 	position: relative;
-    top: -13px;
-    float: right;
     text-align: left;
     font-family: roboto;
     font-size: 65px;
@@ -1055,15 +894,19 @@ footer{
 }
 .footertext{
 	position: relative;
-	top: 10px;
     right: 0%;
-    text-align: center;
+    text-align:center;
     font-family: roboto;
-    font-size: 25px;
+    font-size: 17px;
     font-weight: 300;
     color: #dcb5ff;
 }
-
+.footertext-phone{
+    font-size: 30px;
+    font-weight:300;
+    color: white;
+    text-align: right;
+}
 /*________________________________________________________________________________________________*/
 
 
