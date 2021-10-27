@@ -73,8 +73,9 @@ article{
 	position:absolute;
 	top: 0;
     right: 0%;
-    width: 1910px;
-    height: auto;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
 }
 .Kontent-Blocks{
 	position: relative;
@@ -926,6 +927,3 @@ transform: scale(0.95);
 }
 
 
-@media only screen and (max-width: 981px){
-	.KontentVideoMedia{right: -38%;}
-}
