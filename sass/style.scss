@@ -1,1 +1,701 @@
+@font-face {
+    font-family:Roboto;
+    src: url(../font/Roboto-Regular.ttf);
+}
+body{
+	margin: 0px;
+	font-family: roboto,arial;
+}
+header{
+	position: absolute;
+	width: 100%;
+	height:auto;
+	z-index: 999;
+}
+.navbar-brand{
+	position: relative;
+	top:0;
+	right: 0%;
+	font-family: roboto;
+	font-size: 40px;
+	font-weight: 600;
+	color: white;
+}
+.navbar-brand::before{
+	content: "UP!";
+	position: absolute;
+    top: 6px;
+    left: 127px;
+    width: max-content;
+    text-align: left;
+    font-family: roboto;
+    font-size: 40px;
+    font-weight: 600;
+    color: #c435fe;
+}
 
+/*______________________________________________________________________________________________________*/
+#Content{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: auto;
+    max-height: 900vh;
+    overflow: hidden;	
+}
+#Content::before{
+	content:"";
+	position: absolute;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(0deg, #16013a, transparent);	
+	z-index: 1;
+}
+.ContentVideoMedia{
+	position:absolute;
+	top: 0;
+    right: 0%;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+.Content-Blocks{
+	position: relative;
+    height: auto;
+    display: inline-block;
+    z-index: 2;
+}
+.Content-Blocks-text{
+	position: relative;
+    text-align:center;
+    font-family: roboto;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    padding: 20px 0px;
+    background: url(../img/LentaPodarok.png) no-repeat 50% 50%/95%;
+}
+.Content-Blocks-text::after{
+	content:"UP";
+	position: relative;
+    top: 0;
+    right:0%;
+    width: 20%;
+    font-family: roboto;
+    font-size: 70px;
+    font-weight: 900;
+	color: #efcc52;
+}
+
+.Content-Block-Spisok{
+	position: relative;
+    height:auto;
+    list-style: none;
+    padding: 0px;
+}
+.Spisik-li{
+	position: relative;
+	top: 0;
+	right: 0%;
+	text-align: left;
+	font-family: roboto;
+	font-size: 20px;
+	font-weight: 300;
+	color: white;
+	display: block;
+	margin-bottom: 25px;
+	cursor: pointer;
+}
+.Spisik-li::before{
+	content:"";
+	position: absolute;
+	top: 0px;
+    left: -45px;
+    width: 30px;
+    height: 30px;
+    background: url(../img/CheckMark.png)no-repeat 50% 50%/100%;
+    transition: 0.4s;
+}
+.Spisik-li:hover::before{
+	left: -35px;
+}
+.Content-Blocks-Img{
+	position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.Content-Silka{
+	position: relative;
+}
+.Content-Knopka{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 50%;
+	height: 50px;
+	text-align: center;
+	font-family: roboto;
+	font-size: 20px;
+	font-weight: 300;
+	color: white;
+	border:solid 2px purple;
+	background: #b032ff7d;
+	border-radius: 20px;
+	cursor: pointer;
+	outline: none;
+	transition: 0.3s;
+}
+.Content-Knopka:hover{
+	background: linear-gradient(0deg, #16013a, purple);	
+	border:none;
+}
+/*______________________________________________________________________________________________________*/
+#Content2{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: auto;
+	background: url(../img/istockcasal-cama-sexo.jpg)no-repeat 50% 50%/cover;
+}
+#Content2::before{
+	content:"";
+	position: absolute;
+	top: 0;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background: #efefefd4;
+    backdrop-filter: blur(5px);
+}
+.Content2Block{
+	position: relative;
+	top: 0;
+	right: 0%;
+	height:auto;
+	margin:0 auto;
+}
+#Content2BlockTitle{
+	position: absolute;
+	top: 60px;
+	right: 0%;
+	width: 100%;
+	text-align: center;
+	font-family: roboto;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.Content2Blocks{
+	position: relative;
+    height: auto;
+    display:block;
+    margin-bottom: 60px;
+}
+.Content2Blocks::before{
+content: "";
+position: absolute;
+top: 0px;
+width: 107px;
+height: 100px;
+border-radius:100%;
+border: solid 3px purple;
+margin:-9px -15px;
+}
+.Content2Img{
+	position:relative;
+	width: 75%;
+}
+
+.Content2BlocksImg{
+	position: relative;
+	width:75px;
+}
+
+.Content2BlocksStroka{
+	position: relative;
+	right: 0%;
+	width: 100%;
+	text-align: center;
+	font-family: roboto;
+	font-size: 20px;
+	font-weight: 300;
+	padding-top: 20px;
+}
+
+.Content2BlocksSilka{
+	position: relative;
+    width:max-content;
+}
+.Content2BlocksKnopka{
+	position: relative;
+	width:50%;
+	height:50px;
+	text-align: center;
+	font-family: roboto;
+	font-size: 20px;
+	font-weight: 300;
+	color: white;
+	border:none;
+	background: linear-gradient(359deg, #801880, #9902fd);
+	border-radius:5px;
+	cursor: pointer;
+	outline: none;
+	transition: 0.3s;
+}
+.Content2BlocksKnopka:hover{
+	background: linear-gradient(2deg, #611159, #7a30f8);
+	box-shadow: none;
+}
+/*______________________________________________________________________________________________________*/
+#Content3{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: auto;
+}
+
+.Content3BlockTitle{
+	position:relative;
+	font-size: 40px;
+	font-weight: 600;
+}
+.Content3-block-otsivy {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+#carouselExampleControls {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.carousel-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+.carousel-item img {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.carousel-item .sladetext {
+  position: relative;
+  font-size: 25px;
+  font-weight: 500;
+}
+.carousel-item p {
+  position: relative;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  top: 50%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background: #7300af;
+  border-radius: 100%;
+  padding: 10px;
+  border: none;
+}
+
+/*_________________________________________________________________________________________________*/
+#Content4{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: auto;
+	background:#f1f1f1;
+}
+
+.Content4BlocksTitle{
+	position:relative;
+	text-align: left;
+	font-family: roboto;
+	font-size: 40px;
+	font-weight: 600;
+}
+.Content4BlocksTitle::after{
+	content: "UP!";
+    position: relative;
+    top: 17px;
+    text-align: right;
+    font-family: roboto;
+    font-size: 65px;
+    font-weight: 600;
+    color: #d602d6;
+}
+.Content4BlocksStroka{
+	position: relative;
+	text-align: left;
+	font-family: roboto;
+	font-size: 18px;
+	font-weight: 300;
+}
+.Content4Spisok{
+	position: relative;
+    right: 0%;
+	height: auto;
+	list-style: none;
+	padding: 0px;
+}
+.Content4SpisokLi{
+	position: relative;
+	top: 0;
+	right: 0%;
+	text-align: center;
+	font-family: roboto;
+	font-size: 15px;
+	font-weight: 300;
+	display: inline-block;
+	margin:15px;
+}
+.Content4SpisokLi::before{
+	content: "";
+	position: absolute;
+	top: 0;
+    left: -15%;
+    width: 20px;
+    height: 20px;
+    background: url(../img/MarckChek.png)no-repeat 50% 50%/100%;
+}
+.Content4BlocksImg{
+position: relative;
+width: 100%;
+}
+
+/*_________________________________________________________________________________________________*/
+
+#Content5{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: auto;
+	background: url(../img/dainis-graveris-y2cOf7SfeMI-unsplash.jpg)no-repeat 50% 50%/cover;
+	background-attachment: fixed;
+}
+#Content5::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(358deg, #240365d6, #5f005fbf);
+    backdrop-filter: blur(5px);
+}
+
+#Content5BlockTitle{
+	position:relative;
+    text-align: center;
+    font-family: roboto;
+    font-size: 100px;
+    font-weight: 600;
+    color: white;
+    font-style: oblique;
+    transform: rotate(-11deg);
+}
+#Content5BlockTitle::after{
+	content: "UP!";
+    position: relative;
+    text-align: center;
+    font-family: roboto;
+    font-size: 110px;
+    font-weight: 600;
+    color: #c332ff;
+}
+.Content5Time{
+	position: relative;
+	width: 100%;
+    height: auto;
+    background: #330133;
+    border: solid 10px #961996;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 3px #c435fe;
+    z-index: 9;
+    padding:21px;
+}
+#timer{
+	position: relative;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 100;
+	color: white;
+	letter-spacing: 5px;
+}
+.Content5Blocks{
+	position: relative;
+	height: auto;
+	display: inline-block;
+}
+.Content5Blocksborder{
+    border: solid 2px #d366ff;
+    box-shadow: 0px 0px 16px -5px #ffbeff;
+    background: #730ca94d;
+    border-radius: 20px;
+}
+.Content5BlocksImg{
+	position: relative;
+	top: 0;
+	width: 100%;
+}
+.Content5BlockText{
+	position: absolute;
+    top: 55px;
+    right: 2%;
+    text-align: center;
+    font-family: roboto;
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+    background: #d80000;
+    border-radius: 20px;
+    transform: rotate(-18deg);
+    animation: pulse 1s infinite;
+    padding: 0px 20px;
+}
+.Content5BlockStroka{
+	position: absolute;
+    top: 0px;
+    right: 12%;
+    text-align: center;
+    font-family: roboto;
+    font-size: 33px;
+    font-weight: 600;
+    color: #ff0707;
+    font-style: italic;
+    text-decoration: line-through;
+    transform: rotate(-15deg);
+}
+.Content5forma{
+	position:relative;
+	width:100%;
+}
+.Content5formainput{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	text-align: left;
+	font-family: roboto;
+	font-size: 20px;
+	font-weight: 300;
+	color: purple;
+	padding:10px;
+	border:solid 2px #c435fe;
+	background: #f3f3f3;
+	border-radius: 10px;
+	transition: 0.4s;
+	display: block;
+	margin-bottom: 25px;
+	outline: none;
+	z-index: 3
+}
+.Content5formainput:hover{
+    border:solid 2px #961d96;
+}
+.Podskaska{
+	position: relative;
+}
+.Podskaska::before{
+	content: attr(title);
+	position: absolute;
+	top: -59px;
+    left: -17px;
+    width: 16em;
+	padding: 10px;
+	text-align: center;
+	font-family: roboto;
+	font-size: 17px;
+	font-weight: 300;
+	background: #000000d1;
+	color: white;
+	display: block;
+	border-radius: 10px;
+	visibility: hidden;
+	z-index: 99;
+
+}
+.Podskaska:hover::before{
+	visibility: visible;
+}
+.Podskaska::after{
+	content: "";
+	position: absolute;
+	top: -15px;
+    left: 0px;
+    border-top: 13px solid #000000d1;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    bottom: 20px;
+	visibility: hidden;
+	z-index: 99;
+}
+.Podskaska:hover::after{
+	visibility: visible;
+}
+.Content5FormaKnopka{
+	position: relative;
+    height: 50px;
+	text-align: center;
+	font-family: roboto;
+	font-size: 20px;
+	font-weight: 300;
+	color: white;
+	border:none;
+	background: linear-gradient(359deg, #801880, #9902fd);
+	border-radius:5px;
+	cursor: pointer;
+	outline: none;
+	transition: 0.3s;
+}
+.Content5FormaKnopka:hover{
+    background: linear-gradient(2deg, #180048f0, #7a30f8);
+    box-shadow: none;
+}  
+/*_________________________________________________________________________________________________*/
+#Content6{
+position: relative;
+top: 0;
+right: 0%;
+width: 100%;
+height: auto;
+}
+.Content6-Title{
+font-size: 30px;
+}
+.Content6-blocks{
+position: relative;
+height: auto;
+display: inline-block;
+margin: 10px;
+}
+
+.Content6-video{
+position: relative;
+top: 0;
+right: 0%;
+width: 100%;
+height: auto;
+object-fit: cover;
+}
+/*_________________________________________________________________________________________________*/
+
+footer{
+	position: relative;
+	top: 0;
+	right: 0%;
+	width: 100%;
+	height: auto;
+	background:linear-gradient(#3b0b54,#180422);
+}
+
+.footerblocks{
+	position: relative;
+	top: 0;
+    right:0%;
+    display: inline-block;
+}
+.footerLogo{
+	position:relative;
+	top: 0px;
+    left: 0%;
+    text-align: left;
+    font-family: roboto;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+.footerLogo::after{
+	content:"UP!";
+	position: relative;
+    text-align: left;
+    font-family: roboto;
+    font-size: 65px;
+    font-weight: 600;
+    color: #d366ff;
+}
+.footertext{
+	position: relative;
+    right: 0%;
+    text-align:center;
+    font-family: roboto;
+    font-size: 17px;
+    font-weight: 300;
+    color: #dcb5ff;
+}
+.footertext-phone{
+    font-size: 30px;
+    font-weight:300;
+    color: white;
+    text-align: right;
+}
+/*________________________________________________________________________________________________*/
+
+
+
+@keyframes pulse {
+0% {
+transform: scale();
+}
+
+70% {
+transform: scale(1);
+}
+
+100% {
+transform: scale(0.95);
+}
+}
+
+/*________________________________________________________________________________________________*/
+@media only screen and (max-width: 989px){
+
+}
+@media only screen and (max-width: 575px){
+body{position: absolute;}
+.Content-Blocks-text{text-align: center;}
+.Content-Block-Spisok{padding-left:45px; margin-top: 25px;}
+.Content4BlocksTitle,.Content4BlocksStroka{text-align: center;}
+.Content4Spisok{width: 50%; margin:0 auto;}
+#Content5BlockTitle,#Content5BlockTitle::after{ font-size: 70px;}
+.Content5Blocks{width: 90%;}
+.Content5BlocksImg{margin-top: 30px;}
+.footerLogo,.footertext,.footertext-phone{text-align: center;}
+.footerblocks{display: block;width: 100%;}
+.carousel-control-next-icon,.carousel-control-prev-icon{width: 1rem; height: 1rem; background-size: 35px;}
+}
+
+@media only screen and (max-width: 419px){
+#timer{font-size:30px;}
+}
+@media only screen and (max-width: 335px){
+#timer{font-size:26px;}
+}
+@media only screen and (max-width: 166px){
+#timer{font-size:20px;}
+}
