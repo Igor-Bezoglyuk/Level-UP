@@ -8,22 +8,14 @@ body{
 }
 header{
 	position: absolute;
-	top: 0;
-	right: 0%;
 	width: 100%;
 	height:auto;
 	z-index: 999;
 }
-#Logo{
-	position: relative;
-	width: 100%;
-}
 .navbar-brand{
-	position: relative
+	position: relative;
 	top:0;
 	right: 0%;
-	width: 100%;
-	text-align: left;
 	font-family: roboto;
 	font-size: 40px;
 	font-weight: 600;
@@ -33,8 +25,8 @@ header{
 	content: "UP!";
 	position: absolute;
     top: 6px;
-    left: 187px;
-    width: 4%;
+    left: 127px;
+    width: max-content;
     text-align: left;
     font-family: roboto;
     font-size: 40px;
@@ -43,7 +35,7 @@ header{
 }
 
 /*______________________________________________________________________________________________________*/
-#Kontent{
+#Content{
 	position: relative;
 	top: 0;
 	right: 0%;
@@ -52,7 +44,7 @@ header{
     max-height: 900vh;
     overflow: hidden;	
 }
-#Kontent::before{
+#Content::before{
 	content:"";
 	position: absolute;
 	top: 0;
@@ -62,7 +54,7 @@ header{
 	background: linear-gradient(0deg, #16013a, transparent);	
 	z-index: 1;
 }
-.KontentVideoMedia{
+.ContentVideoMedia{
 	position:absolute;
 	top: 0;
     right: 0%;
@@ -70,15 +62,15 @@ header{
     height:100%;
     object-fit: cover;
 }
-.Kontent-Blocks{
+.Content-Blocks{
 	position: relative;
     height: auto;
     display: inline-block;
     z-index: 2;
 }
-.Kontent-Blocks-text{
+.Content-Blocks-text{
 	position: relative;
-    text-align: left;
+    text-align:center;
     font-family: roboto;
     font-size: 50px;
     font-weight: 600;
@@ -86,22 +78,20 @@ header{
     padding: 20px 0px;
     background: url(../img/LentaPodarok.png) no-repeat 50% 50%/95%;
 }
-.Kontent-Blocks-text::before{
+.Content-Blocks-text::after{
 	content:"UP";
 	position: relative;
     top: 0;
-    right: -220px;
+    right:0%;
     width: 20%;
-    text-align: left;
     font-family: roboto;
     font-size: 70px;
     font-weight: 900;
 	color: #efcc52;
 }
 
-.Kontent-Block-Spisok{
+.Content-Block-Spisok{
 	position: relative;
-    width:max-contant;
     height:auto;
     list-style: none;
     padding: 0px;
@@ -132,21 +122,20 @@ header{
 .Spisik-li:hover::before{
 	left: -35px;
 }
-.Kontent-Blocks-Img{
+.Content-Blocks-Img{
 	position: relative;
     width: 100%;
     height: auto;
 }
 
-.Kontent-Silka{
+.Content-Silka{
 	position: relative;
-    width:max-content;
 }
-.Kontent-Knopka{
+.Content-Knopka{
 	position: relative;
 	top: 0;
 	right: 0%;
-	width: 250px;
+	width: 50%;
 	height: 50px;
 	text-align: center;
 	font-family: roboto;
@@ -160,20 +149,20 @@ header{
 	outline: none;
 	transition: 0.3s;
 }
-.Kontent-Knopka:hover{
+.Content-Knopka:hover{
 	background: linear-gradient(0deg, #16013a, purple);	
 	border:none;
 }
 /*______________________________________________________________________________________________________*/
-#Kontent2{
+#Content2{
 	position: relative;
 	top: 0;
 	right: 0%;
 	width: 100%;
 	height: auto;
-	background: url(../img/istockcasal-cama-sexo.jpg)no-repeat 50% 50%/1900px;
+	background: url(../img/istockcasal-cama-sexo.jpg)no-repeat 50% 50%/cover;
 }
-#Kontent2::before{
+#Content2::before{
 	content:"";
 	position: absolute;
 	top: 0;
@@ -183,14 +172,14 @@ header{
     background: #efefefd4;
     backdrop-filter: blur(5px);
 }
-.Kontent2Block{
+.Content2Block{
 	position: relative;
 	top: 0;
 	right: 0%;
 	height:auto;
 	margin:0 auto;
 }
-#Kontent2BlockTitle{
+#Content2BlockTitle{
 	position: absolute;
 	top: 60px;
 	right: 0%;
@@ -201,13 +190,13 @@ header{
 	font-weight: 600;
 }
 
-.Kontent2Blocks{
+.Content2Blocks{
 	position: relative;
     height: auto;
     display:block;
     margin-bottom: 60px;
 }
-.Kontent2Blocks::before{
+.Content2Blocks::before{
 content: "";
 position: absolute;
 top: 0px;
@@ -217,16 +206,17 @@ border-radius:100%;
 border: solid 3px purple;
 margin:-9px -15px;
 }
-.Kontent2Img{
+.Content2Img{
 	position:relative;
+	width: 75%;
 }
 
-.Kontent2BlocksImg{
+.Content2BlocksImg{
 	position: relative;
 	width:75px;
 }
 
-.Kontent2BlocksStroka{
+.Content2BlocksStroka{
 	position: relative;
 	right: 0%;
 	width: 100%;
@@ -237,13 +227,13 @@ margin:-9px -15px;
 	padding-top: 20px;
 }
 
-.Kontent2BlocksSilka{
+.Content2BlocksSilka{
 	position: relative;
     width:max-content;
 }
-.Kontent2BlocksKnopka{
+.Content2BlocksKnopka{
 	position: relative;
-	width:250px;
+	width:50%;
 	height:50px;
 	text-align: center;
 	font-family: roboto;
@@ -257,12 +247,12 @@ margin:-9px -15px;
 	outline: none;
 	transition: 0.3s;
 }
-.Kontent2BlocksKnopka:hover{
+.Content2BlocksKnopka:hover{
 	background: linear-gradient(2deg, #611159, #7a30f8);
 	box-shadow: none;
 }
 /*______________________________________________________________________________________________________*/
-#Kontent3{
+#Content3{
 	position: relative;
 	top: 0;
 	right: 0%;
@@ -270,330 +260,70 @@ margin:-9px -15px;
 	height: auto;
 }
 
-#Kontent3BlockTitle{
-	position: absolute;
-	top: 50px;
-	right: 0%;
-	width: 100%;
-	text-align: center;
+.Content3BlockTitle{
+	position:relative;
 	font-size: 40px;
 	font-weight: 600;
 }
-
-.carousel {
-    position: relative;
-    top: 175px;
-    right: 0%;
-    width: 810px;
-    height: 475px;
-    overflow: hidden;
-    margin: 0 auto;
+.Content3-block-otsivy {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+#carouselExampleControls {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .carousel-inner {
-    position: relative;
-    display: flex;
-    width: 100%;
-    height: 100%;
-}
-
-.carousel-open:checked + .carousel-item {
-    position: relative;
-    display: contents;
-    top: 0;
-    right: 0%;
-    width: 100%;
-    height: 100%;
+  position: relative;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
 }
 
 .carousel-item {
-    position: absolute;
-    opacity: 0;
-    -webkit-transition: opacity 0.6s ease-out;
-    transition: opacity 0.6s ease-out;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
 }
-
 .carousel-item img {
-    display: block;
-    height: auto;
-    max-width: 100%;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.carousel-item .sladetext {
+  position: relative;
+  font-size: 25px;
+  font-weight: 500;
+}
+.carousel-item p {
+  position: relative;
+  font-size: 17px;
+  font-weight: 300;
 }
 
-.carousel-control {
-    background: rgb(128 24 128);
-    border-radius: 50%;
-    cursor: pointer;
-    #display: none;
-    font-size: 40px;
-    height: 50px;
-    line-height: 35px;
-    position: absolute;
-    top: 45%;
-    cursor: pointer;
-    text-align: center;
-    width: 50px;
-    z-index: 10;
-}
-.carousel-control:hover{
-	background: none;
-}
-.carousel-control.prev::before{
-	position: absolute;
-	content: "\276E";
-	top: 8px;
-    right: 4%;
-    width: 100%;
-    text-align: center;
-    font-size: 35px;
-	font-weight: 300;
-	color:white;
-	transition-duration: 0.4s;
-}
-.carousel-control.next::before{
-	position: absolute;
-	content: "\276F";
-	top: 8px;
-	right: -4%;
-	width: 100%;
-	text-align: center;
-	font-size: 35px;
-	font-weight: 300;
-	color:white;
-	transition-duration: 0.4s;
-}
-.carousel-control.prev:hover::before{
-	color:#7e32ff;
-}
-.carousel-control.next:hover::before{
-	color:#7e32ff;
-}
-.carousel-control.prev {
-    left: 1%;
-}
-
-.carousel-control.next {
-    right: 1%;
-}
-
-#carousel-1:checked ~ .control-1,
-#carousel-2:checked ~ .control-2,
-#carousel-3:checked ~ .control-3 {
-    display: block;
-}
-
-.carousel-indicators {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    bottom: 2%;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 10;
-}
-
-.carousel-indicators li {
-    display: inline-block;
-    margin: 0 5px;
-}
-
-.carousel-bullet {
-    color: #bbb;
-    cursor: pointer;
-    display: block;
-    font-size: 35px;
-}
-
-.carousel-bullet:hover {
-    color: #aaaaaa;
-}
-
-#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
-#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
-#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
-    color: #05bca9;
-}
-
-
-.sladeimg{
-	position: absolute;
-	top: 50px;
-    right: 42%;
-    width: 16%;
-    height: 148px;
-    border-radius: 100%;
-    background: url(../img/8b000ae0b745c6d4cb0a84e2b2de6567.jpg);
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: 103%;
-}
-.sladeimg2{
-	position: absolute;
-	top: 50px;
-    right: 42%;
-    width: 16%;
-    height: 148px;
-    border-radius: 100%;
-    background: url(../img/1371643083_40095600.png);
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: 103%;
-}
-.sladeimg3{
-	position: absolute;
-	top: 50px;
-    right: 42%;
-    width: 16%;
-    height: 148px;
-    border-radius: 100%;
-    background: url(../img/doctor.png);
-    background-position: 56% -1%;
-    background-repeat: no-repeat;
-    background-size: 234%;
-}
-.sladetext{
-	position: absolute;
-	top: 215px;
-	right: 0%;
-	width: 100%;
-	text-align: center;
-	font-family: roboto,sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-	color: grey;
-}
-.sladestroka{
-	position: absolute;
-	top: 270px;
-    right: 5%;
-    width: 90%;
-	text-align: center;
-	font-family: roboto,monospace;
-	font-size: 24px;
-	font-weight: 300;
-	color: grey;
-}
-
-.slider{
-   position: relative;
-    top: 80px;
-    right: 0%;
-    width: 925px;
-    height: 500px;
-    margin: 0 auto;
-    overflow: hidden;
-}
-.sliders{
-	position: relative;
-	top: 0;
-	right: 0%;
-	width: 400%;
-	height: 100%;
-	display: flex;
-}
-.slide{
-	position: relative;
-	top: 0;
-    right: 0%;
-    width: 25%;
-	height: 100%;
-	transition-duration: 0.4s;
-}
-#sladeimg{
-	position: absolute;
-	top: 5px;
-    right: 41%;
-    width: 18%;
-    height: 170px;
-    border-radius: 100%;
-    background: url(../img/avatar-1.jpg);
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: 103%;
-}
-#sladeimg2{
-	position: absolute;
-	top: 5px;
-    right: 41%;
-    width: 18%;
-    height: 170px;
-    border-radius: 100%;
-    background: url(../img/avatar-3.jpg);
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: 103%;
-}
-#sladeimg3{
-	position: absolute;
-	top: 5px;
-    right: 41%;
-    width: 18%;
-    height: 170px;
-    border-radius: 100%;
-    background: url(../img/avatar-2.jpg);
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: 103%;
-}
-#sladetext{
-	position: absolute;
-	top: 164px;
-	right: 0%;
-	width: 100%;
-	text-align: center;
-	#font-family: roboto,sans-serif;
-	font-size: 30px;
-	font-weight: 500;
-	color: grey;
-}
-#sladestroka{
-	position: absolute;
-	top: 230px;
-    right: 5%;
-    width: 90%;
-	text-align: center;
-	#font-family: roboto,monospace;
-	font-size: 20px;
-	font-weight: 300;
-	color: grey;
-}
-input[name="r"]{
-	position: absolute;
-	display: none;
-}
-
-
-#r1:checked ~ .s1{
-	margin-left:0;
-}
-#r2:checked ~ .s1{
-	margin-left:-25%;
-}
-#r3:checked ~ .s1{
-	margin-left:-50%;
-}
-
-
-.arrowrigh{
-	position: absolute;
-	top: 0;
-	right: 0%;
-	width: 10%;
-	height: 40px;
-	background: grey;
-}
-.arrowleft{
-	position: absolute;
-	top: 0;
-	right: 90%;
-	width: 10%;
-	height: 40px;
-	background: grey;
+.carousel-control-prev, .carousel-control-next {
+  top: 50%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background: #7300af;
+  border-radius: 100%;
+  padding: 10px;
+  border: none;
 }
 
 /*_________________________________________________________________________________________________*/
-#Kontent4{
+#Content4{
 	position: relative;
 	top: 0;
 	right: 0%;
@@ -602,14 +332,14 @@ input[name="r"]{
 	background:#f1f1f1;
 }
 
-#Kontent4BlocksTitle{
+.Content4BlocksTitle{
 	position:relative;
 	text-align: left;
 	font-family: roboto;
 	font-size: 40px;
 	font-weight: 600;
 }
-#Kontent4BlocksTitle::after{
+.Content4BlocksTitle::after{
 	content: "UP!";
     position: relative;
     top: 17px;
@@ -619,21 +349,21 @@ input[name="r"]{
     font-weight: 600;
     color: #d602d6;
 }
-.Kontent4BlocksStroka{
+.Content4BlocksStroka{
 	position: relative;
 	text-align: left;
 	font-family: roboto;
 	font-size: 18px;
 	font-weight: 300;
 }
-.Kontent4Spisok{
+.Content4Spisok{
 	position: relative;
     right: 0%;
 	height: auto;
 	list-style: none;
 	padding: 0px;
 }
-.Kontent4SpisokLi{
+.Content4SpisokLi{
 	position: relative;
 	top: 0;
 	right: 0%;
@@ -644,7 +374,7 @@ input[name="r"]{
 	display: inline-block;
 	margin:15px;
 }
-.Kontent4SpisokLi::before{
+.Content4SpisokLi::before{
 	content: "";
 	position: absolute;
 	top: 0;
@@ -653,27 +383,23 @@ input[name="r"]{
     height: 20px;
     background: url(../img/MarckChek.png)no-repeat 50% 50%/100%;
 }
-.Kontent3BlocksImg{
-	position: relative;
-	top: 25px;
-    left: 0%;
-    width: 383px;
-    height: 450px;
+.Content4BlocksImg{
+position: relative;
+width: 100%;
 }
-
-
 
 /*_________________________________________________________________________________________________*/
 
-#Kontent5{
+#Content5{
 	position: relative;
 	top: 0;
 	right: 0%;
 	width: 100%;
 	height: auto;
-	background: url(../img/dainis-graveris-y2cOf7SfeMI-unsplash.jpg)no-repeat 50% 50%/1910px;
+	background: url(../img/dainis-graveris-y2cOf7SfeMI-unsplash.jpg)no-repeat 50% 50%/cover;
+	background-attachment: fixed;
 }
-#Kontent5::before{
+#Content5::before{
     content:"";
     position: absolute;
     top: 0;
@@ -684,7 +410,7 @@ input[name="r"]{
     backdrop-filter: blur(5px);
 }
 
-#Kontent5BlockTitle{
+#Content5BlockTitle{
 	position:relative;
     text-align: center;
     font-family: roboto;
@@ -694,7 +420,7 @@ input[name="r"]{
     font-style: oblique;
     transform: rotate(-11deg);
 }
-#Kontent5BlockTitle::after{
+#Content5BlockTitle::after{
 	content: "UP!";
     position: relative;
     text-align: center;
@@ -703,39 +429,42 @@ input[name="r"]{
     font-weight: 600;
     color: #c332ff;
 }
-.Kontent5Time{
+.Content5Time{
 	position: relative;
+	width: 100%;
     height: auto;
     background: #330133;
     border: solid 10px #961996;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 3px #c435fe;
     z-index: 9;
+    padding:21px;
 }
 #timer{
 	position: relative;
 	text-align: center;
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: 100;
 	color: white;
 	letter-spacing: 5px;
 }
-.Kontent5Blocks{
+.Content5Blocks{
 	position: relative;
-	height: 500px;
+	height: auto;
 	display: inline-block;
 }
-.Kontent5Blocksborder{
+.Content5Blocksborder{
     border: solid 2px #d366ff;
     box-shadow: 0px 0px 16px -5px #ffbeff;
     background: #730ca94d;
     border-radius: 20px;
 }
-.Kontent5BlocksImg{
+.Content5BlocksImg{
 	position: relative;
 	top: 0;
+	width: 100%;
 }
-.Kontent5BlockText{
+.Content5BlockText{
 	position: absolute;
     top: 55px;
     right: 2%;
@@ -750,7 +479,7 @@ input[name="r"]{
     animation: pulse 1s infinite;
     padding: 0px 20px;
 }
-.Kontent5BlockStroka{
+.Content5BlockStroka{
 	position: absolute;
     top: 0px;
     right: 12%;
@@ -763,14 +492,11 @@ input[name="r"]{
     text-decoration: line-through;
     transform: rotate(-15deg);
 }
-.Kontent5forma{
-	position: absolute;
-	top: 120px;
-	right: 5%;
-	width: 90%;
-	height: 65%;
+.Content5forma{
+	position:relative;
+	width:100%;
 }
-.Kontent5formainput{
+.Content5formainput{
 	position: relative;
 	width: 100%;
 	height: 50px;
@@ -789,7 +515,7 @@ input[name="r"]{
 	outline: none;
 	z-index: 3
 }
-.Kontent5formainput:hover{
+.Content5formainput:hover{
     border:solid 2px #961d96;
 }
 .Podskaska{
@@ -798,9 +524,9 @@ input[name="r"]{
 .Podskaska::before{
 	content: attr(title);
 	position: absolute;
-	top: 22px;
-    left: 386px;
-    width: 315px;
+	top: -59px;
+    left: -17px;
+    width: 16em;
 	padding: 10px;
 	text-align: center;
 	font-family: roboto;
@@ -811,7 +537,7 @@ input[name="r"]{
 	display: block;
 	border-radius: 10px;
 	visibility: hidden;
-	z-index: 2;
+	z-index: 99;
 
 }
 .Podskaska:hover::before{
@@ -820,20 +546,20 @@ input[name="r"]{
 .Podskaska::after{
 	content: "";
 	position: absolute;
-	top: 67px;
-    left: 395px;
+	top: -15px;
+    left: 0px;
     border-top: 13px solid #000000d1;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     bottom: 20px;
 	visibility: hidden;
+	z-index: 99;
 }
 .Podskaska:hover::after{
 	visibility: visible;
 }
-.Kontent5FormaKnopka{
+.Content5FormaKnopka{
 	position: relative;
-    width: 250px;
     height: 50px;
 	text-align: center;
 	font-family: roboto;
@@ -847,11 +573,38 @@ input[name="r"]{
 	outline: none;
 	transition: 0.3s;
 }
-.Kontent5FormaKnopka:hover{
+.Content5FormaKnopka:hover{
     background: linear-gradient(2deg, #180048f0, #7a30f8);
     box-shadow: none;
 }  
 /*_________________________________________________________________________________________________*/
+#Content6{
+position: relative;
+top: 0;
+right: 0%;
+width: 100%;
+height: auto;
+}
+.Content6-Title{
+font-size: 30px;
+}
+.Content6-blocks{
+position: relative;
+height: auto;
+display: inline-block;
+margin: 10px;
+}
+
+.Content6-video{
+position: relative;
+top: 0;
+right: 0%;
+width: 100%;
+height: auto;
+object-fit: cover;
+}
+/*_________________________________________________________________________________________________*/
+
 footer{
 	position: relative;
 	top: 0;
@@ -919,4 +672,20 @@ transform: scale(0.95);
 }
 }
 
+/*________________________________________________________________________________________________*/
+@media only screen and (max-width: 989px){
 
+}
+@media only screen and (max-width: 575px){
+body{position: absolute;}
+.Content-Blocks-text{text-align: center;}
+.Content-Block-Spisok{padding-left:45px; margin-top: 25px;}
+.Content4BlocksTitle,.Content4BlocksStroka{text-align: center;}
+.Content4Spisok{width: 50%; margin:0 auto;}
+#Content5BlockTitle,#Content5BlockTitle::after{ font-size: 70px;}
+.Content5Blocks{width: 90%;}
+.Content5BlocksImg{margin-top: 30px;}
+.footerLogo,.footertext,.footertext-phone{text-align: center;}
+.footerblocks{display: block;width: 100%;}
+.Podskaska{}
+}
