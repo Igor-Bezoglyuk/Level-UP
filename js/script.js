@@ -14,7 +14,7 @@ $(document).ready(function(){
 
 
 //Обратный отсчёт
-var countDownDate = new Date("jan 1, 2022 00:00:00").getTime();
+var countDownDate = new Date("jan 1, 2023 00:00:00").getTime();
 var countDownFunction = setInterval(function(){
 
   var now = new Date().getTime();
