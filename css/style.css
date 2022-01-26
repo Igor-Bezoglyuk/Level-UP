@@ -687,5 +687,13 @@ body{position: absolute;}
 .Content5BlocksImg{margin-top: 30px;}
 .footerLogo,.footertext,.footertext-phone{text-align: center;}
 .footerblocks{display: block;width: 100%;}
-.Podskaska{}
+.carousel-control-next-icon,.carousel-control-prev-icon{width: 1rem; height: 1rem; background-size: 35px;}
+}
+
+@media only screen and (max-width: 370px){
+#timer{font-size:28px;}
+}
+
+@media only screen and (max-width: 166px){
+#timer{font-size:20px;}
 }
