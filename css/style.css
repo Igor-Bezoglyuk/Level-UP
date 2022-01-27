@@ -130,7 +130,7 @@ header {
   left: -45px;
   width: 30px;
   height: 30px;
-  background: url(../img/CheckMark.png) no-repeat 50% 50%/100%;
+  background: url("../img/CheckMark.png") no-repeat 50% 50%/100%;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -182,7 +182,7 @@ header {
   right: 0%;
   width: 100%;
   height: auto;
-  background: url(../img/istockcasal-cama-sexo.jpg) no-repeat 50% 50%/cover;
+  background: url("../img/istockcasal-cama-sexo.jpg") no-repeat 50% 50%/cover;
 }
 
 #Content2::before {
@@ -427,7 +427,7 @@ header {
   left: -15%;
   width: 20px;
   height: 20px;
-  background: url(../img/MarckChek.png) no-repeat 50% 50%/100%;
+  background: url("../img/MarckChek.png") no-repeat 50% 50%/100%;
 }
 
 .Content4BlocksImg {
@@ -442,7 +442,7 @@ header {
   right: 0%;
   width: 100%;
   height: auto;
-  background: url(../img/dainis-graveris-y2cOf7SfeMI-unsplash.jpg) no-repeat 50% 50%/cover;
+  background: url("../img/dainis-graveris-y2cOf7SfeMI-unsplash.jpg") no-repeat 50% 50%/cover;
   background-attachment: fixed;
 }
 
