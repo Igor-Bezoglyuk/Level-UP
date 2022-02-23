@@ -681,7 +681,8 @@ body{position: absolute;}
 .Content-Blocks-text{text-align: center;}
 .Content-Block-Spisok{padding-left:45px; margin-top: 25px;}
 .Content4BlocksTitle,.Content4BlocksStroka{text-align: center;}
-.Content4Spisok{width: 50%; margin:0 auto;}
+.Content4Spisok { width: 100%; text-align: center; margin: 25px 0px ;}
+.Content4SpisokLi{ display: block; width: fit-content; margin: 0 auto; padding-bottom: 20px;}
 #Content5BlockTitle,#Content5BlockTitle::after{ font-size: 70px;}
 .Content5Blocks{width: 90%;}
 .Content5BlocksImg{margin-top: 30px;}
